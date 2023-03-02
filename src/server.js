@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-const CATEGORIES_MODEL = require("./models/category.model");
-const GALLERY_MODEL = require("./models/gallery.model");
+const CATEGORIES_MODEL = require("../models/category.model");
+const GALLERY_MODEL = require("../models/gallery.model");
 
 const express = require('express');
-const galleryModel = require("./models/gallery.model");
+const galleryModel = require("../models/gallery.model");
 const app = express();
 mongoose.connect('mongodb+srv://tranhoangduy:tranhoangduy@node-libary.udy8w.mongodb.net/duykaka?retryWrites=true&w=majority', {
     useNewUrlParser: true,
