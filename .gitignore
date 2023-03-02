@@ -1,0 +1,17 @@
+public/users/*
+public/images/*
+public/address_libraries/*
+public/transactions/*
+public/experience_confirms/*
+public/position_confirms/*
+public/experts/*
+public/request_reports/*
+public/categories/*
+public/specialties/*
+public/posts/*
+public/ckeditor/*
+public/messages/*
+dump/*
+node_modules
+package-lock.json
+.env
