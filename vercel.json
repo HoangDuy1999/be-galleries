@@ -1,10 +1,15 @@
 {
     "version": 2,
-    "name": "be-galleries",
     "builds": [
-       { "src": "app.js", "use": "@vercel/node" }
+      {
+        "src": "./app.js",
+        "use": "@vercel/node"
+      }
     ],
     "routes": [
-       { "src": "/(.*)", "dest": "/app.js" }
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
     ]
- }
+  }
